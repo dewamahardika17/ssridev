@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script src="jquery.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+
+	<script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+
+	<!-- awal navbar -->
+	<div class="navbar">
+		<div class="logo">
+			<span>SSRI</span> 
+			<span class="dev-color">DEV</span>
+		</div>
+		<nav>
+			<ul class="nav-menu">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#product">Product</a></li>
+				<li><a href="#aboutus">About Us</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+	</div>
+	<!-- akhir navbar -->
+
+	<div class="foto">
+		<div class="tagline">
+				Jasa Pembuatan Website di Bali <br>
+				Murah dan Cepat
+				<br>
+				<button class="tombol"> Pelajari Selengkapnya</button>
+		</div>
+
+		<div class="patung">
+				<img src="img/patung.png>
+		</div>
+	</div>		
+</body>
+</html>
